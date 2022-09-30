@@ -66,7 +66,7 @@ html{
 
         background-color: #FFFFFF;
         width:320px;
-        padding-left: 24px;
+        padding: 19px 24px 32px 24px;
         box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 
         16px 0px 52px rgba(14, 24, 80, 0.2);
 
@@ -78,7 +78,7 @@ html{
 
 
     .header{
-        padding: 23px 24px 50px 0;
+        padding-bottom:50px;
   
     }
 
