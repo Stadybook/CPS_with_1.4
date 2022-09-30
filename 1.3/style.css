@@ -39,27 +39,27 @@ html{
 
   @font-face {
     font-family: 'TT Lakes Regular';
-    src: url(/fonts/TTLakes-Regular.eot);
+    src: url(../fonts/TTLakes-Regular.eot);
     src: local('TT Lakes Regular'),
-    url(/fonts/TTLakes-Regular.woff) format('woff');
+    url(../fonts/TTLakes-Regular.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     }
 
     @font-face {
         font-family: 'TT Lakes ExtraBold';
-        src: url(/fonts/TTLakes-ExtraBold.eot);
+        src: url(../fonts/TTLakes-ExtraBold.eot);
         src: local('TT Lakes ExtraBold'),
-        url(/fonts/TTLakes-ExtraBold.woff) format('woff');
+        url(../fonts/TTLakes-ExtraBold.woff) format('woff');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'TT Lakes Demi';
-        src: url(/fonts/TTLakes-DemiBold.eot);
+        src: url(../fonts/TTLakes-DemiBold.eot);
         src:local('TT Lakes Demi'),
-        url(/fonts/TTLakes-DemiBold.woff) format('woff');
+        url(../fonts/TTLakes-DemiBold.woff) format('woff');
         font-weight: normal;
         font-style: normal;
         }
@@ -443,7 +443,7 @@ h1{
 }
 
 .more-btn::before{
-    content:url(/img/strela.svg);
+    content:url(../img/strela.svg);
     position:absolute;
     left: -30px;
     top: -3px;
