@@ -38,18 +38,18 @@ html{
 
   @font-face {
     font-family: 'TT Lakes Regular';
-    src: url(/fonts/TTLakes-Regular.eot);
+    src: url(../fonts/TTLakes-Regular.eot);
     src: local('TT Lakes Regular'),
-    url(/fonts/TTLakes-Regular.woff) format('woff');
+    url(../fonts/TTLakes-Regular.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     }
 
     @font-face {
         font-family: 'TT Lakes ExtraBold';
-        src: url(/fonts/TTLakes-ExtraBold.eot);
+        src: url(../fonts/TTLakes-ExtraBold.eot);
         src: local('TT Lakes ExtraBold'),
-        url(/fonts/TTLakes-ExtraBold.woff) format('woff');
+        url(../fonts/TTLakes-ExtraBold.woff) format('woff');
         font-weight: normal;
         font-style: normal;
     }
@@ -80,9 +80,6 @@ body{
     16px 0px 52px rgba(14, 24, 80, 0.2);   
      
 }
-
-
-/*TOP*/
 
 .menu__nav{
     padding-bottom: 50px;
@@ -123,7 +120,6 @@ body{
     max-height: 51px;
 }
 
-/*main*/
 
 .choice__list{
     display: flex;
@@ -159,7 +155,6 @@ body{
 }
 
 
-/*other*/
 
 .other__buttons{
     display: flex;
@@ -180,7 +175,6 @@ body{
 }
 
 
-/*lang*/
 
 .langs{
     display: flex;
