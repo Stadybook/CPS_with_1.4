@@ -38,18 +38,18 @@ html{
 
   @font-face {
     font-family: 'TT Lakes Regular';
-    src: url(/fonts/TTLakes-Regular.eot);
+    src: url(../fonts/TTLakes-Regular.eot);
     src: local('TT Lakes Regular'),
-    url(/fonts/TTLakes-Regular.woff) format('woff');
+    url(../fonts/TTLakes-Regular.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     }
 
     @font-face {
         font-family: 'TT Lakes ExtraBold';
-        src: url(/fonts/TTLakes-ExtraBold.eot);
+        src: url(../fonts/TTLakes-ExtraBold.eot);
         src: local('TT Lakes ExtraBold'),
-        url(/fonts/TTLakes-ExtraBold.woff) format('woff');
+        url(.../fonts/TTLakes-ExtraBold.woff) format('woff');
         font-weight: normal;
         font-style: normal;
     }
