@@ -71,7 +71,7 @@ body{
 .sidebar{
     padding: 19px 24px 32px 24px;
     width:320px; 
-    height: 1024px; 
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
