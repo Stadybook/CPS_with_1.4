@@ -49,7 +49,7 @@ html{
         font-family: 'TT Lakes ExtraBold';
         src: url(../fonts/TTLakes-ExtraBold.eot);
         src: local('TT Lakes ExtraBold'),
-        url(.../fonts/TTLakes-ExtraBold.woff) format('woff');
+        url(../fonts/TTLakes-ExtraBold.woff) format('woff');
         font-weight: normal;
         font-style: normal;
     }
