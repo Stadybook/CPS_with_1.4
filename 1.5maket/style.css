@@ -55,9 +55,9 @@ html{
     
     @font-face {
     font-family: 'TT Lakes Demi';
-    src: url(/fonts/TTLakes-DemiBold.eot);
+    src: url(../fonts/TTLakes-DemiBold.eot);
     src:local('TT Lakes Demi'),
-    url(/fonts/TTLakes-DemiBold.woff) format('woff');
+    url(../fonts/TTLakes-DemiBold.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     }
@@ -83,7 +83,7 @@ html{
  
 
     .go{
-        background-image: url(/img/next.svg);
+        background-image: url(../img/next.svg);
         background-repeat: no-repeat;
         background-position: 50%, 50%;
         width: 40px;
