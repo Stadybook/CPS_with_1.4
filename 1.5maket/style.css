@@ -1,0 +1,268 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, ul, li
+ {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ul {
+	list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#1B1C21;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+html{
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after{
+        box-sizing: inherit;
+  }
+
+
+  @font-face {
+    font-family: 'TT Lakes Regular';
+    src: url(../fonts/TTLakes-Regular.eot);
+    src: local('TT Lakes Regular'),
+    url(../fonts/TTLakes-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'TT Lakes ExtraBold';
+        src: url(../fonts/TTLakes-ExtraBold.eot);
+        src: local('TT Lakes ExtraBold'),
+        url(../fonts/TTLakes-ExtraBold.woff) format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+    font-family: 'TT Lakes Demi';
+    src: url(/fonts/TTLakes-DemiBold.eot);
+    src:local('TT Lakes Demi'),
+    url(/fonts/TTLakes-DemiBold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    h2{
+        font-family: 'TT Lakes Regular';
+        font-size: 16px;
+        letter-spacing: -0.2px;
+        text-transform: uppercase;
+        color: #7E7E82;
+     
+    }
+
+    .section{
+        background: #F2F2F2;
+    }
+
+
+    .section__title{
+        background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+    }
+
+    .section__arrow{
+        display: block;
+        width: 40px;
+        height: 38px;
+        border: 2px solid #FF3E79;
+        border-radius: 50%;    
+    }
+
+    .arrow{
+        margin: 14px 17px;
+    }
+
+
+    .section__link{
+        background-color: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 16px;   
+    }
+
+    .section__link:hover,.section__link:focus{
+        cursor: pointer;
+     }
+
+    .section__logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height:40px ;
+        width: 128px;
+    }
+
+    .img{
+        object-fit: contain;
+    }
+
+
+
+    @media (min-width: 250px) and (max-width: 320px){
+        .section__btn{
+            display: none;
+        }
+
+        .swiper-wrapper{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .swiper-pagination{
+            position: absolute;
+            top:180px;
+        }
+
+        .section__main{
+            padding: 16px 0 66px 16px;
+        }
+        
+        .section__main .swiper-pagination-bullet{
+            background-color:  #B5B6BC;
+        }
+       
+        .section__title{
+            padding:16px;
+        }
+
+        .section__brand{
+            max-width: 238px;
+        }
+
+        .section__link{
+            width: 208px;
+        }
+
+       
+
+    }
+
+    @media (min-width: 768px) and (max-width: 1119px){
+
+        .container{
+            max-width: 768px;
+            margin: 0 auto;
+        }
+
+        .swiper-pagination{
+            display: none;
+        }
+
+       
+        .section__brands{
+            display: grid;
+            grid-template-columns: repeat(3, 224px);
+            gap: 24px;
+            max-height: 184px;
+            overflow: hidden;
+            transition: max-height 200ms ;
+        }
+
+        .section__brands--show{
+            max-height: 1000px;
+            transition: max-height 300ms;
+        }
+        
+        .section__title{
+            padding: 16px 0 16px 24px;
+        }
+
+        .section__main{
+            padding:24px 24px 34px 24px;
+        }
+
+        .section__btn{
+            padding-left:33px ;
+        }
+
+    }
+
+
+    @media (min-width: 1120px){
+
+        .container{
+            max-width: 1120px;
+            margin: 0 auto;
+        }
+        
+        .swiper-pagination{
+            display: none;
+        }
+
+        .section__brands{
+            display: grid;
+            grid-template-columns: repeat(4,240px);
+            gap: 32px;
+            max-height: 184px;
+            overflow: hidden;
+            transition: max-height 200ms ;
+        }
+
+        .section__brands--show{
+            max-height: 1000px;
+            transition: max-height 300ms;
+        }
+
+        .section__title{
+            padding: 16px 0 16px 32px;
+        }
+
+        .section__main{
+            padding: 24px 33px 34px 32px;
+        }
+
+        .section__btn{
+            padding-left:39px ;
+        }
+
+
+    }
+
+    .section__btn{
+        padding-top: 24px;
+    }
+    
+
+    .more-btn{
+        position: relative;
+        font-family: 'TT Lakes Demi';
+    }
+    
+    .more-btn:hover,.more-btn:focus{
+       cursor: pointer;
+    }
+
+   
+    .more-btn::before{
+        content:url(../img/strela.svg);
+        position:absolute;
+        left: 0px;
+        top:23px;
+    }
+
+    .more-btn--clicked::before{
+        transform: rotate(180deg) translateY(3.5px);
+    }
