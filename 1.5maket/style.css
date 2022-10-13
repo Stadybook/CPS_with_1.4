@@ -55,9 +55,9 @@ html{
     
     @font-face {
     font-family: 'TT Lakes Demi';
-    src: url(/fonts/TTLakes-DemiBold.eot);
+    src: url(../fonts/TTLakes-DemiBold.eot);
     src:local('TT Lakes Demi'),
-    url(/fonts/TTLakes-DemiBold.woff) format('woff');
+    url(../fonts/TTLakes-DemiBold.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     }
